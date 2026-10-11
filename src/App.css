@@ -1,0 +1,36 @@
+.app-shell { min-height: 100vh; display: flex; flex-direction: column; background: #fff; }
+.navbar-brand { color: #20252b; letter-spacing: -.3px; }
+.navbar .nav-link { font-size: .94rem; color: #454b52; }
+.navbar .nav-link.active { color: #0d6efd; font-weight: 600; }
+.navbar form { min-width: min(310px, 100%); }
+.directory-main { flex: 1; padding-top: 1.25rem; padding-bottom: 1.5rem; max-width: 1120px; }
+.breadcrumb-bar { background: #343a40; border-radius: .25rem; padding: .55rem .85rem; margin-bottom: 1.1rem; }
+.breadcrumb { font-size: .78rem; }
+.breadcrumb-item a { color: #e8edf2; text-decoration: none; }
+.breadcrumb-item.active { color: #fff; }
+.breadcrumb-item + .breadcrumb-item::before { color: #adb5bd; }
+.page-heading { margin-bottom: 1.15rem; }
+.page-heading h1 { color: #242a30; font-weight: 500; }
+.student-card { overflow: hidden; border-color: #e3e5e8; border-radius: .3rem; transition: transform .18s ease, box-shadow .18s ease; }
+.student-card:hover { transform: translateY(-3px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.12) !important; }
+.student-avatar { height: 112px; background: #e6e8eb; display: flex; justify-content: center; align-items: center; color: #fff; position: relative; overflow: hidden; }
+.student-avatar::before { content: ''; position: absolute; width: 43px; height: 43px; top: 17px; border-radius: 50%; background: #9da3aa; }
+.student-avatar::after { content: ''; position: absolute; width: 83px; height: 46px; bottom: -19px; border-radius: 48% 48% 0 0; background: #9da3aa; }
+.student-avatar span { position: absolute; opacity: 0; }
+.student-card .card-body { padding: .8rem; }
+.student-card .card-title { color: #292e33; }
+.student-details { line-height: 1.55; }
+.student-details strong { color: #444b52; font-weight: 500; }
+.student-card .btn { font-size: .76rem; }
+.directory-summary { min-height: 22px; }
+.add-student-form { border-color: #e2e6ea; box-shadow: 0 .15rem .5rem rgba(0,0,0,.04); }
+.directory-alert { font-size: .85rem; padding: .85rem 2.8rem .85rem 1rem; }
+.site-footer { background: #25282b; color: #f4f5f6; }
+.site-footer h2 { color: #fff; }
+.footer-links { font-size: .83rem; line-height: 1.55; }
+.footer-links a { color: #f4f5f6; text-decoration: none; }
+.footer-links a:hover { text-decoration: underline; }
+.copyright { border-top: 1px solid #414448; font-size: .75rem; color: #d4d7da; }
+.modal-backdrop-custom { position: fixed; inset: 0; z-index: 1080; background: rgba(20,25,30,.55); display: grid; place-items: center; padding: 1rem; }
+.profile-modal { width: min(100%, 470px); }
+@media (max-width: 575.98px) { .directory-main { padding-top: .85rem; } .student-avatar { height: 95px; } .navbar form { padding-bottom: .5rem; } }
