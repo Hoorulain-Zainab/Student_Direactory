@@ -1,6 +1,45 @@
-SC&D Lab Assignment complete - Student Directory using React & Bootstrap
-<img width="1917" height="1026" alt="image" src="https://github.com/user-attachments/assets/a4050a28-0235-4dec-bff8-8b6815a434da" />
-<img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/600757c6-c2dd-4985-8d03-93fdf9f60174" />
-<img width="1916" height="1025" alt="image" src="https://github.com/user-attachments/assets/cc7157ef-af71-44a2-88d6-5c2daef9f6d4" />
-<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/f50a3806-0193-404f-9c5a-2b79c025b838" />
+# Student Directory
 
+A simple and responsive Student Directory application built with React, Vite, and Bootstrap.
+
+## About the Project
+
+The Student Directory displays student information in organized cards. Users can view student details and explore information such as each student's major, year, and GPA.
+
+## Features
+
+- Display student information in cards
+- View and hide student profile details
+- Track profile views
+- Responsive layout using Bootstrap
+- Blue and grey user interface
+
+## Technologies Used
+
+- React
+- JavaScript
+- Vite
+- Bootstrap
+- CSS
+
+## Getting Started
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Start the development server
+
+```bash
+npm run dev
+```
+
+### 3. Open the local URL
+
+Open the URL displayed in your terminal, usually `http://localhost:5173`.
+
+## Author
+
+**Hoorulain Zainab**
