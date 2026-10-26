@@ -17,9 +17,9 @@ const Footer = () => {
           </div>
           <div className="col-md-6">
             <h6 className="text-danger fw-bold mb-3">Contact Info</h6>
-            <p className="small text-light mb-1">SZABIST Student Portal Support</p>
-            <p className="small text-light mb-1">📞 +92: 123 456 7890</p>
-            <p className="small text-light mb-0">✉️ hoorulain@studentportal.com</p>
+            <p className="small text-light mb-1"> Student Portal </p>
+            <p className="small text-light mb-1"> +92: 34127890</p>
+            <p className="small text-light mb-0"> hoorulain@studentportal.com</p>
           </div>
         </div>
         <hr className="border-secondary my-3" />
